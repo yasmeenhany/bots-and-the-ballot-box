@@ -1,0 +1,30 @@
+.vscode
+__pycache__/
+twibot-22/
+cresci-15/
+twibot-20-sample/
+BotRGCN/cresci_15/processed_data/
+BotRGCN/twibot_20/processed_data/
+BotRGCN/twibot_22/preprocessed_data/
+code_for_20_sample/
+RGT/
+MAE.ipynb
+Ablation/
+BotRGCN/
+roberta/
+extra_exp/
+manipulated_models/
+code_for_22/
+code_for_cresci_15/
+Ablation/
+experiments_*.py
+experiments_*_*.py
+backup/
+
+# ignore all log files
+*.log
+
+# ignore all .pt files in processed_data
+data/TwiBot-20/processed_data/*.pt
+
+.DS_Store

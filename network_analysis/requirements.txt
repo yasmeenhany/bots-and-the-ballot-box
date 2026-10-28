@@ -1,0 +1,7 @@
+# Environment used for analysis.py (Python 3.9)
+networkx==2.6.3
+pandas==1.1.5
+tqdm==4.64.1
+# Only needed for --plot
+graphistry
+python-dotenv

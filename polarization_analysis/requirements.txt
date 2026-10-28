@@ -1,0 +1,8 @@
+# polarization_sample.ipynb (CPU, Python 3.9)
+jupyter
+networkx==2.6.3
+pandas==1.1.5
+python-louvain==0.16
+
+# polarization.ipynb also needs an NVIDIA GPU with RAPIDS (cudf, cugraph) and graphistry.
+# Install RAPIDS with conda following https://docs.rapids.ai/install

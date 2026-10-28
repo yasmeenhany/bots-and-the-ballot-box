@@ -1,0 +1,40 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Data: tweets and user profiles are not redistributed (see README > Data)
+preprocessing/sample-data/
+preprocessing/data/
+preprocessing/results/
+preprocessing/*.csv
+twibot_20/Twibot-20/*
+!twibot_20/Twibot-20/README.md
+twibot_20/processed_data/
+
+# Processed tensors
+BotMoE/data/**/*.pt
+BotMoE/data/**/*.npy
+BotMoE/data/**/*.pkl
+
+# Checkpoint files written while preprocess.py builds the tweet embeddings
+tweets_partial.pt
+tweets_state.json
+
+# Training outputs
+BotMoE/artifacts/logs/
+BotMoE/artifacts/models/
+*.log
+
+# Analysis outputs (contain account IDs; regenerate them by running the analysis)
+network_analysis/results.json
+network_analysis/*.csv
+polarization_analysis/*.csv

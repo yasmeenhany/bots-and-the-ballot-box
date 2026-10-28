@@ -1,0 +1,6 @@
+# Environment used for clean_data.py and preprocess.py (Python 3.9)
+numpy==1.22.4
+pandas==1.1.5
+torch==2.1.2
+tqdm==4.64.1
+transformers==4.53.0
